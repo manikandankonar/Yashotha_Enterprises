@@ -8,7 +8,7 @@
 	
 }
 
-.nav{
+.nav1{
 
 	background: linear-gradient(to bottom right, #ff3300 0%, #ff3300 57%); !important
 }
@@ -64,21 +64,28 @@
 .im1 img{
 	height:200px;
 	width:200px;
-	/* padding-top:40px; */
-	
+	box-shadow:3px 5px 10px black;
+	transform:scaleX(-1);
 }
 
 .im1 img:hover{
 	transform:scale(1.1);
+	cursor:pointer;
+
 	
 }
 
 .im1 h5{
 	font-size:20px;
-	text-align:center;
 	padding-top:10px;
 	
 }
+
+.im1 a{
+	text-decoration:none;
+	color:black;
+}
+
 .clients{
 	height:300px;
 	border:2px solid;
@@ -103,7 +110,7 @@ marquee img{
 
 .footimg{
 
-	background:#ffff66;
+	background:beige;
 
 
 }
