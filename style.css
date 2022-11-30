@@ -39,18 +39,32 @@
 	
 }
 .im1{
+	border-radius: 20px;
+    border: 3px solid;
+    box-shadow: 2px 2px 2px 2px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+	padding:0px 30px;
+	margin:30px 0px;
+}
 	
-	border-radius:20px;
-	margin-top:30px;
-	padding:10px;
-	border:3px solid;
-	box-shadow:2px 2px 2px 2px;
 	
+
+	
+	
+
+.image-service{
+	height:300px;
+	width:300px;
+	align-items: center; 
+	padding-left:45px;
+	padding-top:20px;
 }
 .im1 img{
 	height:200px;
 	width:200px;
-	padding-top:40px;
+	/* padding-top:40px; */
 	
 }
 
